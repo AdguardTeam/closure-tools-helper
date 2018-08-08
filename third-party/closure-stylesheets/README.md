@@ -1,0 +1,1 @@
+Source: https://github.com/google/closure-stylesheets/releases/download/v1.5.0/closure-stylesheets.jar

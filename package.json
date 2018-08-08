@@ -1,0 +1,29 @@
+{
+  "name": "closure-tools-helper",
+  "version": "1.0.4",
+  "description": "Provides utility functionalities to call closure tools in nodejs.",
+  "main": "index.js",
+  "repository": "https://github.com/seanl-adg/closure-tools-helper",
+  "author": "seanl-adg",
+  "license": "LGPL",
+  "scripts": {
+    "distill": "node script/build_closure_deps.js"
+  },
+  "dependencies": {
+    "closure-library.ts": "^1.0.0",
+    "esprima": "^4.0.0",
+    "estraverse": "^4.2.0",
+    "fancy-log": "^1.3.2",
+    "fast-glob": "^2.1.0",
+    "fs-extra": "^5.0.0",
+    "google-closure-compiler": "^20180204.0.0",
+    "google-closure-library": "20180204.0.0",
+    "gulp": "^3.9.1",
+    "gulp-insert": "^0.5.0",
+    "vinyl": "^2.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^9.4.6",
+    "@types/vinyl": "^2.0.2"
+  }
+}

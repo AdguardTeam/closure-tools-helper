@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+        "target": "es2017",
+        "lib": ["dom", "es6", "es2016"],
+        "module": "commonjs"
+    },
+    "include": [
+        "index.ts",
+        "script/*"
+    ]
+}
